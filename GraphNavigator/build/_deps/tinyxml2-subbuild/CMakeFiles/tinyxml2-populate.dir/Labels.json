@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/tinyxml2-populate"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/4037680b6547cc90607c0ee46e2e0401/tinyxml2-populate.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/ef4ade642afb4db9de4b43c9157b80b9/tinyxml2-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/984555791133fa96c392e7f3523fa9b0/tinyxml2-populate-build.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/984555791133fa96c392e7f3523fa9b0/tinyxml2-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/984555791133fa96c392e7f3523fa9b0/tinyxml2-populate-download.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/984555791133fa96c392e7f3523fa9b0/tinyxml2-populate-install.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/984555791133fa96c392e7f3523fa9b0/tinyxml2-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/984555791133fa96c392e7f3523fa9b0/tinyxml2-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/984555791133fa96c392e7f3523fa9b0/tinyxml2-populate-test.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/984555791133fa96c392e7f3523fa9b0/tinyxml2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tinyxml2-populate"
+		],
+		"name" : "tinyxml2-populate"
+	}
+}

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-src\src\raudio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-src\src\rcore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-src\src\rmodels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-src\src\rshapes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-src\src\rtext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-src\src\rtextures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-src\src\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-src\src\raylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-src\src\rlgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-src\src\raymath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\input.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\platform.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\vulkan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\egl_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\osmesa_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_joystick.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_module.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_time.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_thread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_joystick.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build\raylib\external\glfw\src\glfw.dir\$(Configuration)\wgl_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2998B010-ABCA-3161-AAC5-311366FB4AE5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{17EAE513-087B-3980-9B02-EB3A0041EC54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{38B3E3A7-A728-348E-95B7-31894FD39C57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

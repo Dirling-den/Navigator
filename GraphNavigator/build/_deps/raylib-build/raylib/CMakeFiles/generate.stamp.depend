@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/CompileDefinitions.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/GlfwImport.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/InstallConfigurations.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/JoinPaths.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/LibraryConfigurations.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/PackConfigurations.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/raylib-config-version.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/raylib.pc.in
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/src/CMakeLists.txt
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CPack.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CPackComponent.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindOpenGL.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/323845e61bc91724a468d7bff4f7f096/raylib-populate.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/7c795de007a1afe06e872bd1a81a5c33/raylib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/deade4583006f9a3f85a92e566fbd57c/raylib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/deade4583006f9a3f85a92e566fbd57c/raylib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/deade4583006f9a3f85a92e566fbd57c/raylib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/deade4583006f9a3f85a92e566fbd57c/raylib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/deade4583006f9a3f85a92e566fbd57c/raylib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/deade4583006f9a3f85a92e566fbd57c/raylib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/deade4583006f9a3f85a92e566fbd57c/raylib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/deade4583006f9a3f85a92e566fbd57c/raylib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"raylib-populate"
+		],
+		"name" : "raylib-populate"
+	}
+}

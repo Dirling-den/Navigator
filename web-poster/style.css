@@ -1,0 +1,266 @@
+/* style.css */
+:root {
+    --card-bg: rgba(15, 23, 42, 0.75); /* Плотный темный фон для максимального контраста текста */
+    --accent-color: #38bdf8;
+    --accent-gradient: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+    --panel-gradient: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+    --text-color: #ffffff; /* Чистый белый цвет для идеальной читаемости */
+    --text-muted: #cbd5e1; /* Светло-серый контрастный цвет для обычного текста */
+}
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Статичный диагональный градиент от синего (справа вверху) к фиолетовому (слева внизу) */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+
+    /* Направление 225deg запускает градиент из правого верхнего угла в левый нижний */
+    background: linear-gradient(225deg, #024fac 0%, #0b132b 35%, #1e1b4b 65%, #4c1d95 100%);
+    background-attachment: fixed; /* Фиксируем фон, чтобы он не растягивался и не ломался при скролле */
+}
+
+.container { 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    position: relative;
+    z-index: 1;
+}
+
+/* Главный заголовок (крупный, белый, яркий) */
+header { 
+    text-align: center; 
+    padding: 80px 0 40px; 
+}
+
+header h1 { 
+    font-size: 3.8rem; 
+    font-weight: 800;
+    color: var(--text-color);
+    margin-bottom: 15px; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 0 20px rgba(56, 189, 248, 0.4); /* Эффект неонового свечения вокруг букв */
+}
+
+.subtitle { 
+    font-size: 1.35rem; 
+    color: var(--text-muted); 
+    margin-bottom: 40px; 
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
+}
+
+/* Яркая градиентная кнопка */
+.btn {
+    display: inline-block;
+    background: var(--accent-gradient);
+    color: #000000;
+    padding: 16px 36px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 242, 254, 0.4);
+}
+
+.btn:hover { 
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 30px rgba(79, 172, 254, 0.7);
+    filter: brightness(1.1);
+}
+
+/* Мощные градиентные секции-плашки */
+section { 
+    margin-bottom: 50px; 
+    background: var(--panel-gradient); 
+    padding: 40px; 
+    border-radius: 20px; 
+    border: 1px solid rgba(56, 189, 248, 0.25); /* Четкий яркий контур блоков */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    border-color: rgba(0, 242, 254, 0.5);
+    box-shadow: 0 15px 40px rgba(0, 242, 254, 0.1);
+}
+
+/* Белые контрастные заголовки внутри блоков */
+section h2 { 
+    font-size: 2.1rem; 
+    color: var(--text-color);
+    margin-bottom: 25px; 
+    border-bottom: 2px solid rgba(56, 189, 248, 0.3); 
+    padding-bottom: 12px; 
+    font-weight: 700;
+}
+
+section p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+/* Сетка карточек стека */
+.grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); 
+    gap: 25px; 
+}
+
+.card { 
+    background: rgba(10, 15, 30, 0.8); 
+    padding: 25px; 
+    border-radius: 14px; 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent-color);
+}
+
+/* Подсвеченные названия технологий */
+.card h3 { 
+    color: #00f2fe; /* Яркий бирюзовый цвет заголовка */
+    margin-bottom: 12px; 
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 1rem;
+    color: var(--text-muted);
+}
+
+/* Контрастная таблица результатов */
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 25px; 
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th, td { 
+    padding: 18px; 
+    text-align: left; 
+    font-size: 1.05rem;
+}
+
+th { 
+    background: rgba(10, 15, 30, 0.9); 
+    color: #00f2fe; 
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    border-bottom: 3px solid rgba(0, 242, 254, 0.4);
+}
+
+td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background-color: rgba(15, 23, 42, 0.4);
+    color: var(--text-color);
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover td {
+    background-color: rgba(56, 189, 248, 0.1); /* Яркая подсветка строки при наведении */
+}
+
+/* Место под будущий скриншот */
+.screenshot-placeholder {
+    width: 100%;
+    height: 400px;
+    background: rgba(6, 9, 19, 0.9); 
+    border-radius: 14px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin: 25px 0 0; 
+    border: 2px dashed #00f2fe;
+    box-shadow: 0 0 25px rgba(0, 242, 254, 0.15);
+}
+
+footer {
+    text-align: center; 
+    padding: 50px 0 30px; 
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+
+/* Интерактивный светящийся круг с градиентной плотностью и дымчатыми краями */
+.cursor-glow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    
+    /* Плотность плавно падает от центра к краю */
+    background: radial-gradient(
+        circle at center,
+        rgba(255, 255, 255, 0.7) 0%,
+        rgba(255, 255, 255, 0.35) 25%,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(255, 255, 255, 0.02) 75%,
+        transparent 100%
+    );
+    
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+    will-change: left, top;
+    
+    /* Размытие создаёт эффект дымки на границах */
+    filter: blur(20px);
+}
+
+/* Дополнительная рассеянная "дымка" на внешних краях круга */
+.cursor-glow::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(circle, transparent 40%, rgba(255, 255, 255, 0.05) 70%, transparent 100%);
+    border-radius: 50%;
+    filter: blur(40px);
+    transform: scale(1.5);
+    pointer-events: none;
+}
+.screenshot-row {
+    display: flex;            /* Выстраивает картинки строго в один ряд */
+    justify-content: center;  /* Центрирует всю группу картинок */
+    gap: 15px;                /* Расстояние между скриншотами */
+    margin-top: 25px;         /* Отступ сверху от текста */
+    width: 100%;
+}
+
+.screenshot-row img {
+    width: 45%;               /* Картинки уменьшены и теперь не будут вылезать */
+    max-width: 400px;         /* Максимальный предел ширины для больших мониторов */
+    height: auto;             /* Сохраняет пропорции без искажений */
+    object-fit: contain;      
+    border-radius: 6px;       /* Легкое скругление углов */
+}

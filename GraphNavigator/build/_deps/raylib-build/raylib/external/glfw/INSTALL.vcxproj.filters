@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Main\LSHPI\GraphNavigator\build\CMakeFiles\b668db14f1e833f932c381a9cff753e0\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{92A09E66-5F42-32DB-866A-AC56E6E762E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

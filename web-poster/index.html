@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraphNavigator — Навигатор по паркам Москвы на C++</title>
+    <!-- Подключаем наш внешний файл со стилями -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>GraphNavigator</h1>
+        <p class="subtitle">Высокопроизводительный навигатор по паркам Москвы на C++ с использованием алгоритма А*, Дейкстра, Ближайшего соседа.</p>
+        <a href="https://sourcecraft.dev/denburgun/project" class="btn" target="_blank">Открыть код на SourceCraft</a>
+    </header>
+
+    <!-- Экран 1: О проекте -->
+    <section>
+        <h2>О проекте</h2>
+        <p>Проект представляет собой автономное высокопроизводительное настольное приложение (.exe) для интерактивной навигации по сложным пешеходным зонам и паркам Москвы (Ботанический сад МГУ, ВДНХ, Сокольники). Карта динамически генерируется на основе реальных географических данных OpenStreetMap.</p>
+        
+        <div class="screenshot-row">
+            <img src="Screenshot 2026-07-09 114408.png" alt="Выбор алгоритмов">
+            <img src="Screenshot 2026-07-09 114841.png" alt="Панель навигации">
+        </div>
+    </section>
+
+
+
+    <!-- Экран 2: Технологический стек -->
+    <section>
+        <h2>Архитектура и Стек</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Ядро на C++</h3>
+                <p>Использование ООП архитектуры, разделение на модули (.hpp/.cpp) и контейнеров STL для максимального быстродействия поиска.</p>
+            </div>
+            <div class="card">
+                <h3>OpenStreetMap</h3>
+                <p>Самостоятельный построчный парсинг XML-данных формата .osm, извлечение тегов дорог и расчет расстояний по формуле гаверсинусов.</p>
+            </div>
+            <div class="card">
+                <h3>Алгоритм А*</h3>
+                <p>Поиск кратчайшего пути с использованием очереди с приоритетами (Мин-куча) и кастомной евклидовой эвристики.</p>
+            </div>
+                        <div class="card">
+                <h3>Алгоритм Дейкстры</h3>
+                <p>Поиск ближайших объектов инфраструктуры парка (кафе, выходов к метро) из текущей точки с использованием Multi-source подхода.</p>
+            </div>
+            <div class="card">
+                <h3>Ближайший сосед (TSP)</h3>
+                <p>Жадный алгоритм для автоматического построения сквозного экскурсионного маршрута по выбранным достопримечательностям.</p>
+            </div>
+            <div class="card">
+                <h3>Сайт-презентация</h3>
+                <p>Интерактивный веб-постер (Landing Page) на HTML и CSS для защиты проекта, демонстрирующий архитектуру кода, стек и результаты экспериментов.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Экран 3: Эксперименты -->
+    <section>
+        <h2>Результаты экспериментов</h2>
+        <p>Анализ скорости построения маршрутов в зависимости от количества вершин и плотности графа парка:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Локация (Парк)</th>
+                    <th>Количество вершин (Nodes)</th>
+                    <th>Длина пути (м)</th>
+                    <th>Время расчета (мс)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ботанический сад МГУ (Тест)</td>
+                    <td>6</td>
+                    <td>~450 м</td>
+                    <td>0.02 мс</td>
+                </tr>
+                <tr>
+                    <td>Парк «Сокольники»</td>
+                    <td>~4 500</td>
+                    <td>1 200 м</td>
+                    <td>1.45 мс</td>
+                </tr>
+                <tr>
+                    <td>ВДНХ</td>
+                    <td>~12 000</td>
+                    <td>3 400 м</td>
+                    <td>3.12 мс</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <p>© 2026 Разработано в рамках проекта «Алгоритмы на графах: от теории к экспериментам»</p>
+    </footer>
+</div>
+<div class="cursor-glow" id="glow"></div>
+
+    <!-- Скрипт плавного отслеживания курсора с задержкой -->
+    <script>
+        const glow = document.getElementById('glow');
+        
+        // Текущие координаты мыши
+        let mouseX = window.innerWidth / 2;
+        let mouseY = window.innerHeight / 2;
+        
+        // Текущие координаты светящегося круга
+        let glowX = mouseX;
+        let glowY = mouseY;
+        
+        // Коэффициент плавности/задержки. Чем меньше число, тем сильнее задержка (0.08 — идеально)
+        const speed = 0.08;
+
+        window.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        function animate() {
+            // Рассчитываем расстояние до курсора и плавно двигаем круг к нему (LERP)
+            glowX += (mouseX - glowX) * speed;
+            glowY += (mouseY - glowY) * speed;
+            
+            glow.style.left = glowX + 'px';
+            glow.style.top = glowY + 'px';
+            
+            // Вызываем следующий кадр анимации
+            requestAnimationFrame(animate);
+        }
+        
+        // Запуск цикла анимации
+        animate();
+    </script>
+</body>
+</html>

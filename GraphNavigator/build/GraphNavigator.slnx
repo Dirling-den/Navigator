@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="GraphNavigator.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="61fecddf-bdb6-3d51-8398-c0601abfffeb">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/raylib-build/raylib/external/glfw/src/glfw.vcxproj"/>
+		<BuildDependency Project="graph_core.vcxproj"/>
+		<BuildDependency Project="_deps/raylib-build/raylib/raylib.vcxproj"/>
+		<BuildDependency Project="_deps/tinyxml2-build/tinyxml2.vcxproj"/>
+	</Project>
+	<Project Path="GraphNavigatorCity.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b9055c08-7ec0-3464-b5c4-37008f29df2f">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/raylib-build/raylib/external/glfw/src/glfw.vcxproj"/>
+		<BuildDependency Project="gn_core.vcxproj"/>
+		<BuildDependency Project="_deps/raylib-build/raylib/raylib.vcxproj"/>
+	</Project>
+	<Project Path="app_logic_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6df578a1-2561-3a66-ac60-abe79add25e0">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/raylib-build/raylib/external/glfw/src/glfw.vcxproj"/>
+		<BuildDependency Project="graph_core.vcxproj"/>
+		<BuildDependency Project="_deps/raylib-build/raylib/raylib.vcxproj"/>
+		<BuildDependency Project="_deps/tinyxml2-build/tinyxml2.vcxproj"/>
+	</Project>
+	<Project Path="gn_core.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="621e12c8-48d5-3af8-84b6-0424989e4cfa">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="graph_core.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9362e074-aa65-3785-8543-b705fd9c3c4b">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/tinyxml2-build/tinyxml2.vcxproj"/>
+	</Project>
+	<Project Path="graph_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="daf8f9d4-0e71-3424-aa2a-f8818962835d">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="graph_core.vcxproj"/>
+		<BuildDependency Project="_deps/tinyxml2-build/tinyxml2.vcxproj"/>
+	</Project>
+	<Project Path="package_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="737ce69a-be9b-3b47-a23f-0585c81b40c4">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="gn_core.vcxproj"/>
+	</Project>
+	<Project Path="_deps/raylib-build/raylib/raylib.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3adeffad-ee6d-36c3-80d6-2f5b859cc875">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="_deps/raylib-build/raylib/external/glfw/src/glfw.vcxproj"/>
+	</Project>
+	<Project Path="_deps/tinyxml2-build/tinyxml2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="1b15a29d-d1e2-398e-924c-c028871ffc33">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="_deps/raylib-build/uninstall.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="19da6676-b128-37e9-a9d5-105cd726033a">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Folder Name="/CMakePredefinedTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="32f7958f-b78d-3c30-a008-bd8904fd008d" DefaultStartup="true">
+			<BuildDependency Project="GraphNavigator.vcxproj"/>
+			<BuildDependency Project="GraphNavigatorCity.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="app_logic_tests.vcxproj"/>
+			<BuildDependency Project="_deps/raylib-build/raylib/external/glfw/src/glfw.vcxproj"/>
+			<BuildDependency Project="gn_core.vcxproj"/>
+			<BuildDependency Project="graph_core.vcxproj"/>
+			<BuildDependency Project="graph_tests.vcxproj"/>
+			<BuildDependency Project="package_tests.vcxproj"/>
+			<BuildDependency Project="_deps/raylib-build/raylib/raylib.vcxproj"/>
+			<BuildDependency Project="_deps/tinyxml2-build/tinyxml2.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a9fcbe47-0eae-3af1-8027-13d7dae89382">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="PACKAGE.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a1f69435-1446-3e8c-9614-94b070172cd7">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="RUN_TESTS.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="754d5b18-c290-31c9-b6f8-aa299c44d741">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e41c0b98-9256-3edf-9049-e64135e80917"/>
+	</Folder>
+	<Folder Name="/CTestDashboardTargets/">
+		<Project Path="Continuous.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b0ac4553-4300-3325-9f8c-7f3a9eb27cf8">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="Experimental.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="08c350ee-16b1-326e-833d-d8a89053b036">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="Nightly.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5d5e5f8e-2c57-3b32-aa49-507c6016104f">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+		<Project Path="NightlyMemoryCheck.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="042a1d99-316b-317d-81d8-c5fd7984481e">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+	</Folder>
+	<Folder Name="/GLFW3/">
+		<Project Path="_deps/raylib-build/raylib/external/glfw/src/glfw.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6edca0ad-eb81-386b-ab3f-fa3689da1360">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="_deps/raylib-build/raylib/external/glfw/src/update_mappings.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8f18c5b4-4bd1-357a-afed-64f8f7e4223a">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+			<Build Solution="MinSizeRel|*" Project="false"/>
+			<Build Solution="RelWithDebInfo|*" Project="false"/>
+		</Project>
+	</Folder>
+</Solution>

@@ -1,0 +1,152 @@
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\DEADE4583006F9A3F85A92E566FBD57C\RAYLIB-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/tmp/raylib-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\DEADE4583006F9A3F85A92E566FBD57C\RAYLIB-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Main\LSHPI\GraphNavigator\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/download-raylib-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/verify-raylib-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/extract-raylib-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\DEADE4583006F9A3F85A92E566FBD57C\RAYLIB-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\DEADE4583006F9A3F85A92E566FBD57C\RAYLIB-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\DEADE4583006F9A3F85A92E566FBD57C\RAYLIB-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\DEADE4583006F9A3F85A92E566FBD57C\RAYLIB-POPULATE-BUILD.RULE
+setlocal
+cd C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\DEADE4583006F9A3F85A92E566FBD57C\RAYLIB-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\DEADE4583006F9A3F85A92E566FBD57C\RAYLIB-POPULATE-TEST.RULE
+setlocal
+cd C:\Main\LSHPI\GraphNavigator\build\_deps\raylib-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\7C795DE007A1AFE06E872BD1A81A5C33\RAYLIB-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/Debug/raylib-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/Debug/raylib-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\323845E61BC91724A468D7BFF4F7F096\RAYLIB-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild -BC:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild --check-stamp-file C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

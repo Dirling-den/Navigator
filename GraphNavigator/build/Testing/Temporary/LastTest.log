@@ -1,0 +1,37 @@
+Start testing: Oct 28 10:54 RTZ 2 (çèìà)
+----------------------------------------------------------
+2/3 Testing: package_regressions
+2/3 Test: package_regressions
+Command: "C:/Main/LSHPI/GraphNavigator/build/Debug/package_tests.exe" "C:/Main/LSHPI/GraphNavigator/maps/demo_district.gnpk"
+Directory: C:/Main/LSHPI/GraphNavigator/build
+"package_regressions" start time: Oct 28 10:54 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+real package pairs checked: 1024
+All package/routing checks passed
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"package_regressions" end time: Oct 28 10:54 RTZ 2 (çèìà)
+"package_regressions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: graph_regressions
+3/3 Test: graph_regressions
+Command: "C:/Main/LSHPI/GraphNavigator/build/Debug/graph_tests.exe"
+Directory: C:/Main/LSHPI/GraphNavigator/build
+"graph_regressions" start time: Oct 28 10:54 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+[MapParser] Cannot parse C:\Main\LSHPI\GraphNavigator\build\graph_regression.osm: Error=XML_ERROR_MISMATCHED_ELEMENT ErrorID=14 (0xe) Line number=1: XMLElement name=node
+All graph regression checks passed
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"graph_regressions" end time: Oct 28 10:54 RTZ 2 (çèìà)
+"graph_regressions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 28 10:54 RTZ 2 (çèìà)

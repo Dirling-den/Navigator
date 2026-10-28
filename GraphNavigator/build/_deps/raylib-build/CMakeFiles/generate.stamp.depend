@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/CMakeLists.txt
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/CMakeOptions.txt
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/CompilerFlags.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/EnumOption.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/ParseConfigHeader.cmake
+C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake/Uninstall.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDependentOption.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake

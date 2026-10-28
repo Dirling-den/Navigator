@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-build/tinyxml2.pc.gen
+C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-src/CMakeLists.txt
+C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-src/cmake/tinyxml2.pc.in
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CTest.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CTestTargets.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CTestUseLaunchers.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/DartConfiguration.tcl.in
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Templates/CTestScript.cmake.in

@@ -1,0 +1,152 @@
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SUBBUILD\CMAKEFILES\984555791133FA96C392E7F3523FA9B0\TINYXML2-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/tmp/tinyxml2-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/Debug/tinyxml2-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SUBBUILD\CMAKEFILES\984555791133FA96C392E7F3523FA9B0\TINYXML2-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Main\LSHPI\GraphNavigator\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/download-tinyxml2-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/verify-tinyxml2-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/extract-tinyxml2-populate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/Debug/tinyxml2-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SUBBUILD\CMAKEFILES\984555791133FA96C392E7F3523FA9B0\TINYXML2-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/Debug/tinyxml2-populate-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SUBBUILD\CMAKEFILES\984555791133FA96C392E7F3523FA9B0\TINYXML2-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/Debug/tinyxml2-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SUBBUILD\CMAKEFILES\984555791133FA96C392E7F3523FA9B0\TINYXML2-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Main\LSHPI\GraphNavigator\build\_deps\tinyxml2-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/Debug/tinyxml2-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SUBBUILD\CMAKEFILES\984555791133FA96C392E7F3523FA9B0\TINYXML2-POPULATE-BUILD.RULE
+setlocal
+cd C:\Main\LSHPI\GraphNavigator\build\_deps\tinyxml2-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/Debug/tinyxml2-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SUBBUILD\CMAKEFILES\984555791133FA96C392E7F3523FA9B0\TINYXML2-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Main\LSHPI\GraphNavigator\build\_deps\tinyxml2-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/Debug/tinyxml2-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SUBBUILD\CMAKEFILES\984555791133FA96C392E7F3523FA9B0\TINYXML2-POPULATE-TEST.RULE
+setlocal
+cd C:\Main\LSHPI\GraphNavigator\build\_deps\tinyxml2-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/Debug/tinyxml2-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SUBBUILD\CMAKEFILES\EF4ADE642AFB4DB9DE4B43C9157B80B9\TINYXML2-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/Debug/tinyxml2-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E touch C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/Debug/tinyxml2-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SUBBUILD\CMAKEFILES\4037680B6547CC90607C0EE46E2E0401\TINYXML2-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild -BC:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild --check-stamp-file C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/download-tinyxml2-populate.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/verify-tinyxml2-populate.cmake;COMMAND;C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/tinyxml2-populate-prefix/src/tinyxml2-populate-stamp/extract-tinyxml2-populate.cmake
+source_dir=C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-src
+work_dir=C:/Main/LSHPI/GraphNavigator/build/_deps
+url(s)=https://github.com/leethomason/tinyxml2/archive/refs/tags/11.0.0.tar.gz
+hash=
+      no_extract=
+

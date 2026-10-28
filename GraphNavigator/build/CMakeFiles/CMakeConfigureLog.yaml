@@ -1,0 +1,2106 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\burgu\\AppData\\Local\\com.narelabs.sharrowkin\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\RuDesktop\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\burgu\\.local\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\burgu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\burgu\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 18.11.0-1.26475.11+3cde5c8ec для .NET Framework
+      Сборка начата 17.10.2026 21:41:00.
+      
+      Проект "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Сборка проекта "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:01.43
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/4.3.1-msvc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/RuDesktop/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/burgu/.local/bin/"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/burgu/AppData/Local/Python/bin/"
+      - "C:/Users/burgu/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\burgu\\AppData\\Local\\com.narelabs.sharrowkin\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\RuDesktop\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\burgu\\.local\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\burgu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\burgu\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/RuDesktop/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/burgu/.local/bin/"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/burgu/AppData/Local/Python/bin/"
+      - "C:/Users/burgu/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/lld-link.com"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/lld-link.exe"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/RuDesktop/lld-link.com"
+      - "C:/Program Files/RuDesktop/lld-link.exe"
+      - "C:/Program Files/RuDesktop/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Users/burgu/.local/bin/lld-link.com"
+      - "C:/Users/burgu/.local/bin/lld-link.exe"
+      - "C:/Users/burgu/.local/bin/lld-link"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/burgu/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/burgu/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/burgu/AppData/Local/Python/bin/lld-link"
+      - "C:/Users/burgu/.dotnet/tools/lld-link.com"
+      - "C:/Users/burgu/.dotnet/tools/lld-link.exe"
+      - "C:/Users/burgu/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\burgu\\AppData\\Local\\com.narelabs.sharrowkin\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\RuDesktop\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\burgu\\.local\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\burgu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\burgu\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/RuDesktop/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/burgu/.local/bin/"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/burgu/AppData/Local/Python/bin/"
+      - "C:/Users/burgu/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\burgu\\AppData\\Local\\com.narelabs.sharrowkin\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\RuDesktop\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\burgu\\.local\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\burgu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\burgu\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/RuDesktop/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/burgu/.local/bin/"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/burgu/AppData/Local/Python/bin/"
+      - "C:/Users/burgu/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/mt"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/mt.com"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/mt.exe"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/RuDesktop/mt.com"
+      - "C:/Program Files/RuDesktop/mt.exe"
+      - "C:/Program Files/RuDesktop/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Users/burgu/.local/bin/mt.com"
+      - "C:/Users/burgu/.local/bin/mt.exe"
+      - "C:/Users/burgu/.local/bin/mt"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/burgu/AppData/Local/Python/bin/mt.com"
+      - "C:/Users/burgu/AppData/Local/Python/bin/mt.exe"
+      - "C:/Users/burgu/AppData/Local/Python/bin/mt"
+      - "C:/Users/burgu/.dotnet/tools/mt.com"
+      - "C:/Users/burgu/.dotnet/tools/mt.exe"
+      - "C:/Users/burgu/.dotnet/tools/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\burgu\\AppData\\Local\\com.narelabs.sharrowkin\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\RuDesktop\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\burgu\\.local\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\burgu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\burgu\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/RuDesktop/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/burgu/.local/bin/"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/burgu/AppData/Local/Python/bin/"
+      - "C:/Users/burgu/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\burgu\\AppData\\Local\\com.narelabs.sharrowkin\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\RuDesktop\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\burgu\\.local\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\burgu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\burgu\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\burgu\\AppData\\Local\\com.narelabs.sharrowkin\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\RuDesktop\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\burgu\\.local\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\burgu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\burgu\\.dotnet\\tools"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Версия MSBuild 18.11.0-1.26475.11+3cde5c8ec для .NET Framework
+      Сборка начата 17.10.2026 21:41:02.
+      
+      Проект "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      PrepareForBuild:
+        Создание каталога "Debug\\".
+        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\"
+        Using normalized configuration "Release"
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
+        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Сборка проекта "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\4.3.1-msvc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+      
+      Сборка успешно завершена.
+          Предупреждений: 0
+          Ошибок: 0
+      
+      Прошло времени 00:00:00.82
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/4.3.1-msvc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/RuDesktop/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/burgu/.local/bin/"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/burgu/AppData/Local/Python/bin/"
+      - "C:/Users/burgu/.dotnet/tools/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/lld-link"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/lld-link.com"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/lld-link.exe"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/RuDesktop/lld-link.com"
+      - "C:/Program Files/RuDesktop/lld-link.exe"
+      - "C:/Program Files/RuDesktop/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Users/burgu/.local/bin/lld-link.com"
+      - "C:/Users/burgu/.local/bin/lld-link.exe"
+      - "C:/Users/burgu/.local/bin/lld-link"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/burgu/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/burgu/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/burgu/AppData/Local/Python/bin/lld-link"
+      - "C:/Users/burgu/.dotnet/tools/lld-link.com"
+      - "C:/Users/burgu/.dotnet/tools/lld-link.exe"
+      - "C:/Users/burgu/.dotnet/tools/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\burgu\\AppData\\Local\\com.narelabs.sharrowkin\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\RuDesktop\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\burgu\\.local\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\burgu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\burgu\\.dotnet\\tools"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:596 (enable_language)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:569 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/RuDesktop/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/burgu/.local/bin/"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/burgu/AppData/Local/Python/bin/"
+      - "C:/Users/burgu/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/GraphNavigator/bin/"
+      - "C:/Program Files/GraphNavigator/sbin/"
+      - "C:/Program Files/GraphNavigator/"
+    searched_directories:
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/rc.com"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/rc.exe"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/RuDesktop/rc.com"
+      - "C:/Program Files/RuDesktop/rc.exe"
+      - "C:/Program Files/RuDesktop/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Users/burgu/.local/bin/rc.com"
+      - "C:/Users/burgu/.local/bin/rc.exe"
+      - "C:/Users/burgu/.local/bin/rc"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/burgu/AppData/Local/Python/bin/rc.com"
+      - "C:/Users/burgu/AppData/Local/Python/bin/rc.exe"
+      - "C:/Users/burgu/AppData/Local/Python/bin/rc"
+      - "C:/Users/burgu/.dotnet/tools/rc.com"
+      - "C:/Users/burgu/.dotnet/tools/rc.exe"
+      - "C:/Users/burgu/.dotnet/tools/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/rc"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/rc"
+      - "C:/Program Files/GraphNavigator/bin/rc.com"
+      - "C:/Program Files/GraphNavigator/bin/rc.exe"
+      - "C:/Program Files/GraphNavigator/bin/rc"
+      - "C:/Program Files/GraphNavigator/sbin/rc.com"
+      - "C:/Program Files/GraphNavigator/sbin/rc.exe"
+      - "C:/Program Files/GraphNavigator/sbin/rc"
+      - "C:/Program Files/GraphNavigator/rc.com"
+      - "C:/Program Files/GraphNavigator/rc.exe"
+      - "C:/Program Files/GraphNavigator/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\burgu\\AppData\\Local\\com.narelabs.sharrowkin\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\RuDesktop\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\burgu\\.local\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\burgu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\burgu\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/GraphNavigator"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/GraphNavigator"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-ramjw2"
+      binary: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-ramjw2"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-ramjw2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8d04d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Версия MSBuild 18.11.0-1.26475.11+3cde5c8ec для .NET Framework
+        Сборка начата 17.10.2026 21:41:04.
+        
+        Проект "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ramjw2\\cmTC_8d04d.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ramjw2\\Debug\\".
+          Создание каталога "cmTC_8d04d.dir\\Debug\\cmTC_8d04d.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_8d04d.dir\\Debug\\cmTC_8d04d.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_8d04d.dir\\Debug\\cmTC_8d04d.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8d04d.dir\\Debug\\\\" /Fd"cmTC_8d04d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8d04d.dir\\Debug\\\\" /Fd"cmTC_8d04d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ramjw2\\Debug\\cmTC_8d04d.exe" /INCREMENTAL /ILK:"cmTC_8d04d.dir\\Debug\\cmTC_8d04d.ilk" /NOLOGO /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-ramjw2/Debug/cmTC_8d04d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-ramjw2/Debug/cmTC_8d04d.lib" /MACHINE:X64  /machine:x64 cmTC_8d04d.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8d04d.vcxproj -> C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ramjw2\\Debug\\cmTC_8d04d.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_8d04d.dir\\Debug\\cmTC_8d04d.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_8d04d.dir\\Debug\\cmTC_8d04d.tlog\\cmTC_8d04d.lastbuildstate".
+        Сборка проекта "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ramjw2\\cmTC_8d04d.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.81
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-umgngi"
+      binary: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-umgngi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-umgngi'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e7377.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Версия MSBuild 18.11.0-1.26475.11+3cde5c8ec для .NET Framework
+        Сборка начата 17.10.2026 21:41:05.
+        
+        Проект "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-umgngi\\cmTC_e7377.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-umgngi\\Debug\\".
+          Создание каталога "cmTC_e7377.dir\\Debug\\cmTC_e7377.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_e7377.dir\\Debug\\cmTC_e7377.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_e7377.dir\\Debug\\cmTC_e7377.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_e7377.dir\\Debug\\\\" /Fd"cmTC_e7377.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_e7377.dir\\Debug\\\\" /Fd"cmTC_e7377.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-umgngi\\Debug\\cmTC_e7377.exe" /INCREMENTAL /ILK:"cmTC_e7377.dir\\Debug\\cmTC_e7377.ilk" /NOLOGO /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-umgngi/Debug/cmTC_e7377.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-umgngi/Debug/cmTC_e7377.lib" /MACHINE:X64  /machine:x64 cmTC_e7377.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e7377.vcxproj -> C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-umgngi\\Debug\\cmTC_e7377.exe
+        FinalizeBuildStatus:
+          Файл "cmTC_e7377.dir\\Debug\\cmTC_e7377.tlog\\unsuccessfulbuild" удаляется.
+          Обращение к "cmTC_e7377.dir\\Debug\\cmTC_e7377.tlog\\cmTC_e7377.lastbuildstate".
+        Сборка проекта "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-umgngi\\cmTC_e7377.vcxproj" завершена (целевые объекты по умолчанию).
+        
+        Сборка успешно завершена.
+            Предупреждений: 0
+            Ошибок: 0
+        
+        Прошло времени 00:00:00.76
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.51.36260.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CTest.cmake:188 (find_program)"
+      - "CMakeLists.txt:7 (include)"
+    mode: "program"
+    variable: "MEMORYCHECK_COMMAND"
+    description: "Path to the memory checking command, used for memory error detection."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "purify"
+      - "valgrind"
+      - "boundscheck"
+      - "drmemory"
+      - "cuda-memcheck"
+      - "compute-sanitizer"
+    candidate_directories:
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/RuDesktop/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/burgu/.local/bin/"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/burgu/AppData/Local/Python/bin/"
+      - "C:/Users/burgu/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/GraphNavigator/bin/"
+      - "C:/Program Files/GraphNavigator/sbin/"
+      - "C:/Program Files/GraphNavigator/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/purify.com"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/purify.exe"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/purify"
+      - "C:/Windows/System32/purify.com"
+      - "C:/Windows/System32/purify.exe"
+      - "C:/Windows/System32/purify"
+      - "C:/Windows/purify.com"
+      - "C:/Windows/purify.exe"
+      - "C:/Windows/purify"
+      - "C:/Windows/System32/wbem/purify.com"
+      - "C:/Windows/System32/wbem/purify.exe"
+      - "C:/Windows/System32/wbem/purify"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/purify.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/purify.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/purify"
+      - "C:/Windows/System32/OpenSSH/purify.com"
+      - "C:/Windows/System32/OpenSSH/purify.exe"
+      - "C:/Windows/System32/OpenSSH/purify"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/purify.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/purify.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/purify"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/purify.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/purify.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/purify"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/purify.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/purify.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/purify"
+      - "C:/Program Files/Git/cmd/purify.com"
+      - "C:/Program Files/Git/cmd/purify.exe"
+      - "C:/Program Files/Git/cmd/purify"
+      - "C:/Program Files/RuDesktop/purify.com"
+      - "C:/Program Files/RuDesktop/purify.exe"
+      - "C:/Program Files/RuDesktop/purify"
+      - "C:/Program Files/dotnet/purify.com"
+      - "C:/Program Files/dotnet/purify.exe"
+      - "C:/Program Files/dotnet/purify"
+      - "C:/Users/burgu/.local/bin/purify.com"
+      - "C:/Users/burgu/.local/bin/purify.exe"
+      - "C:/Users/burgu/.local/bin/purify"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/purify.com"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/purify.exe"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/purify"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/purify.com"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/purify.exe"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/purify"
+      - "C:/Users/burgu/AppData/Local/Python/bin/purify.com"
+      - "C:/Users/burgu/AppData/Local/Python/bin/purify.exe"
+      - "C:/Users/burgu/AppData/Local/Python/bin/purify"
+      - "C:/Users/burgu/.dotnet/tools/purify.com"
+      - "C:/Users/burgu/.dotnet/tools/purify.exe"
+      - "C:/Users/burgu/.dotnet/tools/purify"
+      - "C:/Program Files/bin/purify.com"
+      - "C:/Program Files/bin/purify.exe"
+      - "C:/Program Files/bin/purify"
+      - "C:/Program Files/sbin/purify.com"
+      - "C:/Program Files/sbin/purify.exe"
+      - "C:/Program Files/sbin/purify"
+      - "C:/Program Files/purify.com"
+      - "C:/Program Files/purify.exe"
+      - "C:/Program Files/purify"
+      - "C:/Program Files (x86)/bin/purify.com"
+      - "C:/Program Files (x86)/bin/purify.exe"
+      - "C:/Program Files (x86)/bin/purify"
+      - "C:/Program Files (x86)/sbin/purify.com"
+      - "C:/Program Files (x86)/sbin/purify.exe"
+      - "C:/Program Files (x86)/sbin/purify"
+      - "C:/Program Files (x86)/purify.com"
+      - "C:/Program Files (x86)/purify.exe"
+      - "C:/Program Files (x86)/purify"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/purify.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/purify.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/purify"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/purify.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/purify.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/purify"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/purify.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/purify.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/purify"
+      - "C:/Program Files/GraphNavigator/bin/purify.com"
+      - "C:/Program Files/GraphNavigator/bin/purify.exe"
+      - "C:/Program Files/GraphNavigator/bin/purify"
+      - "C:/Program Files/GraphNavigator/sbin/purify.com"
+      - "C:/Program Files/GraphNavigator/sbin/purify.exe"
+      - "C:/Program Files/GraphNavigator/sbin/purify"
+      - "C:/Program Files/GraphNavigator/purify.com"
+      - "C:/Program Files/GraphNavigator/purify.exe"
+      - "C:/Program Files/GraphNavigator/purify"
+      - "/REGISTRY-NOTFOUND/purify.com"
+      - "/REGISTRY-NOTFOUND/purify.exe"
+      - "/REGISTRY-NOTFOUND/purify"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/valgrind.com"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/valgrind.exe"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/valgrind"
+      - "C:/Windows/System32/valgrind.com"
+      - "C:/Windows/System32/valgrind.exe"
+      - "C:/Windows/System32/valgrind"
+      - "C:/Windows/valgrind.com"
+      - "C:/Windows/valgrind.exe"
+      - "C:/Windows/valgrind"
+      - "C:/Windows/System32/wbem/valgrind.com"
+      - "C:/Windows/System32/wbem/valgrind.exe"
+      - "C:/Windows/System32/wbem/valgrind"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/valgrind.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/valgrind.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/valgrind"
+      - "C:/Windows/System32/OpenSSH/valgrind.com"
+      - "C:/Windows/System32/OpenSSH/valgrind.exe"
+      - "C:/Windows/System32/OpenSSH/valgrind"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/valgrind.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/valgrind.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/valgrind"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/valgrind.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/valgrind.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/valgrind"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/valgrind.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/valgrind.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/valgrind"
+      - "C:/Program Files/Git/cmd/valgrind.com"
+      - "C:/Program Files/Git/cmd/valgrind.exe"
+      - "C:/Program Files/Git/cmd/valgrind"
+      - "C:/Program Files/RuDesktop/valgrind.com"
+      - "C:/Program Files/RuDesktop/valgrind.exe"
+      - "C:/Program Files/RuDesktop/valgrind"
+      - "C:/Program Files/dotnet/valgrind.com"
+      - "C:/Program Files/dotnet/valgrind.exe"
+      - "C:/Program Files/dotnet/valgrind"
+      - "C:/Users/burgu/.local/bin/valgrind.com"
+      - "C:/Users/burgu/.local/bin/valgrind.exe"
+      - "C:/Users/burgu/.local/bin/valgrind"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/valgrind.com"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/valgrind.exe"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/valgrind"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/valgrind.com"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/valgrind.exe"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/valgrind"
+      - "C:/Users/burgu/AppData/Local/Python/bin/valgrind.com"
+      - "C:/Users/burgu/AppData/Local/Python/bin/valgrind.exe"
+      - "C:/Users/burgu/AppData/Local/Python/bin/valgrind"
+      - "C:/Users/burgu/.dotnet/tools/valgrind.com"
+      - "C:/Users/burgu/.dotnet/tools/valgrind.exe"
+      - "C:/Users/burgu/.dotnet/tools/valgrind"
+      - "C:/Program Files/bin/valgrind.com"
+      - "C:/Program Files/bin/valgrind.exe"
+      - "C:/Program Files/bin/valgrind"
+      - "C:/Program Files/sbin/valgrind.com"
+      - "C:/Program Files/sbin/valgrind.exe"
+      - "C:/Program Files/sbin/valgrind"
+      - "C:/Program Files/valgrind.com"
+      - "C:/Program Files/valgrind.exe"
+      - "C:/Program Files/valgrind"
+      - "C:/Program Files (x86)/bin/valgrind.com"
+      - "C:/Program Files (x86)/bin/valgrind.exe"
+      - "C:/Program Files (x86)/bin/valgrind"
+      - "C:/Program Files (x86)/sbin/valgrind.com"
+      - "C:/Program Files (x86)/sbin/valgrind.exe"
+      - "C:/Program Files (x86)/sbin/valgrind"
+      - "C:/Program Files (x86)/valgrind.com"
+      - "C:/Program Files (x86)/valgrind.exe"
+      - "C:/Program Files (x86)/valgrind"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/valgrind.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/valgrind.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/valgrind"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/valgrind.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/valgrind.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/valgrind"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/valgrind.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/valgrind.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/valgrind"
+      - "C:/Program Files/GraphNavigator/bin/valgrind.com"
+      - "C:/Program Files/GraphNavigator/bin/valgrind.exe"
+      - "C:/Program Files/GraphNavigator/bin/valgrind"
+      - "C:/Program Files/GraphNavigator/sbin/valgrind.com"
+      - "C:/Program Files/GraphNavigator/sbin/valgrind.exe"
+      - "C:/Program Files/GraphNavigator/sbin/valgrind"
+      - "C:/Program Files/GraphNavigator/valgrind.com"
+      - "C:/Program Files/GraphNavigator/valgrind.exe"
+      - "C:/Program Files/GraphNavigator/valgrind"
+      - "/REGISTRY-NOTFOUND/valgrind.com"
+      - "/REGISTRY-NOTFOUND/valgrind.exe"
+      - "/REGISTRY-NOTFOUND/valgrind"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/boundscheck.com"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/boundscheck.exe"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/boundscheck"
+      - "C:/Windows/System32/boundscheck.com"
+      - "C:/Windows/System32/boundscheck.exe"
+      - "C:/Windows/System32/boundscheck"
+      - "C:/Windows/boundscheck.com"
+      - "C:/Windows/boundscheck.exe"
+      - "C:/Windows/boundscheck"
+      - "C:/Windows/System32/wbem/boundscheck.com"
+      - "C:/Windows/System32/wbem/boundscheck.exe"
+      - "C:/Windows/System32/wbem/boundscheck"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/boundscheck.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/boundscheck.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/boundscheck"
+      - "C:/Windows/System32/OpenSSH/boundscheck.com"
+      - "C:/Windows/System32/OpenSSH/boundscheck.exe"
+      - "C:/Windows/System32/OpenSSH/boundscheck"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/boundscheck.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/boundscheck.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/boundscheck"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/boundscheck.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/boundscheck.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/boundscheck"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/boundscheck.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/boundscheck.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/boundscheck"
+      - "C:/Program Files/Git/cmd/boundscheck.com"
+      - "C:/Program Files/Git/cmd/boundscheck.exe"
+      - "C:/Program Files/Git/cmd/boundscheck"
+      - "C:/Program Files/RuDesktop/boundscheck.com"
+      - "C:/Program Files/RuDesktop/boundscheck.exe"
+      - "C:/Program Files/RuDesktop/boundscheck"
+      - "C:/Program Files/dotnet/boundscheck.com"
+      - "C:/Program Files/dotnet/boundscheck.exe"
+      - "C:/Program Files/dotnet/boundscheck"
+      - "C:/Users/burgu/.local/bin/boundscheck.com"
+      - "C:/Users/burgu/.local/bin/boundscheck.exe"
+      - "C:/Users/burgu/.local/bin/boundscheck"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/boundscheck.com"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/boundscheck.exe"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/boundscheck"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/boundscheck.com"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/boundscheck.exe"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/boundscheck"
+      - "C:/Users/burgu/AppData/Local/Python/bin/boundscheck.com"
+      - "C:/Users/burgu/AppData/Local/Python/bin/boundscheck.exe"
+      - "C:/Users/burgu/AppData/Local/Python/bin/boundscheck"
+      - "C:/Users/burgu/.dotnet/tools/boundscheck.com"
+      - "C:/Users/burgu/.dotnet/tools/boundscheck.exe"
+      - "C:/Users/burgu/.dotnet/tools/boundscheck"
+      - "C:/Program Files/bin/boundscheck.com"
+      - "C:/Program Files/bin/boundscheck.exe"
+      - "C:/Program Files/bin/boundscheck"
+      - "C:/Program Files/sbin/boundscheck.com"
+      - "C:/Program Files/sbin/boundscheck.exe"
+      - "C:/Program Files/sbin/boundscheck"
+      - "C:/Program Files/boundscheck.com"
+      - "C:/Program Files/boundscheck.exe"
+      - "C:/Program Files/boundscheck"
+      - "C:/Program Files (x86)/bin/boundscheck.com"
+      - "C:/Program Files (x86)/bin/boundscheck.exe"
+      - "C:/Program Files (x86)/bin/boundscheck"
+      - "C:/Program Files (x86)/sbin/boundscheck.com"
+      - "C:/Program Files (x86)/sbin/boundscheck.exe"
+      - "C:/Program Files (x86)/sbin/boundscheck"
+      - "C:/Program Files (x86)/boundscheck.com"
+      - "C:/Program Files (x86)/boundscheck.exe"
+      - "C:/Program Files (x86)/boundscheck"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/boundscheck.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/boundscheck.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/boundscheck"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/boundscheck.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/boundscheck.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/boundscheck"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/boundscheck.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/boundscheck.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/boundscheck"
+      - "C:/Program Files/GraphNavigator/bin/boundscheck.com"
+      - "C:/Program Files/GraphNavigator/bin/boundscheck.exe"
+      - "C:/Program Files/GraphNavigator/bin/boundscheck"
+      - "C:/Program Files/GraphNavigator/sbin/boundscheck.com"
+      - "C:/Program Files/GraphNavigator/sbin/boundscheck.exe"
+      - "C:/Program Files/GraphNavigator/sbin/boundscheck"
+      - "C:/Program Files/GraphNavigator/boundscheck.com"
+      - "C:/Program Files/GraphNavigator/boundscheck.exe"
+      - "C:/Program Files/GraphNavigator/boundscheck"
+      - "/REGISTRY-NOTFOUND/boundscheck.com"
+      - "/REGISTRY-NOTFOUND/boundscheck.exe"
+      - "/REGISTRY-NOTFOUND/boundscheck"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/drmemory.com"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/drmemory.exe"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/drmemory"
+      - "C:/Windows/System32/drmemory.com"
+      - "C:/Windows/System32/drmemory.exe"
+      - "C:/Windows/System32/drmemory"
+      - "C:/Windows/drmemory.com"
+      - "C:/Windows/drmemory.exe"
+      - "C:/Windows/drmemory"
+      - "C:/Windows/System32/wbem/drmemory.com"
+      - "C:/Windows/System32/wbem/drmemory.exe"
+      - "C:/Windows/System32/wbem/drmemory"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/drmemory.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/drmemory.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/drmemory"
+      - "C:/Windows/System32/OpenSSH/drmemory.com"
+      - "C:/Windows/System32/OpenSSH/drmemory.exe"
+      - "C:/Windows/System32/OpenSSH/drmemory"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/drmemory.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/drmemory.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/drmemory"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/drmemory.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/drmemory.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/drmemory"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/drmemory.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/drmemory.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/drmemory"
+      - "C:/Program Files/Git/cmd/drmemory.com"
+      - "C:/Program Files/Git/cmd/drmemory.exe"
+      - "C:/Program Files/Git/cmd/drmemory"
+      - "C:/Program Files/RuDesktop/drmemory.com"
+      - "C:/Program Files/RuDesktop/drmemory.exe"
+      - "C:/Program Files/RuDesktop/drmemory"
+      - "C:/Program Files/dotnet/drmemory.com"
+      - "C:/Program Files/dotnet/drmemory.exe"
+      - "C:/Program Files/dotnet/drmemory"
+      - "C:/Users/burgu/.local/bin/drmemory.com"
+      - "C:/Users/burgu/.local/bin/drmemory.exe"
+      - "C:/Users/burgu/.local/bin/drmemory"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/drmemory.com"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/drmemory.exe"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/drmemory"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/drmemory.com"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/drmemory.exe"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/drmemory"
+      - "C:/Users/burgu/AppData/Local/Python/bin/drmemory.com"
+      - "C:/Users/burgu/AppData/Local/Python/bin/drmemory.exe"
+      - "C:/Users/burgu/AppData/Local/Python/bin/drmemory"
+      - "C:/Users/burgu/.dotnet/tools/drmemory.com"
+      - "C:/Users/burgu/.dotnet/tools/drmemory.exe"
+      - "C:/Users/burgu/.dotnet/tools/drmemory"
+      - "C:/Program Files/bin/drmemory.com"
+      - "C:/Program Files/bin/drmemory.exe"
+      - "C:/Program Files/bin/drmemory"
+      - "C:/Program Files/sbin/drmemory.com"
+      - "C:/Program Files/sbin/drmemory.exe"
+      - "C:/Program Files/sbin/drmemory"
+      - "C:/Program Files/drmemory.com"
+      - "C:/Program Files/drmemory.exe"
+      - "C:/Program Files/drmemory"
+      - "C:/Program Files (x86)/bin/drmemory.com"
+      - "C:/Program Files (x86)/bin/drmemory.exe"
+      - "C:/Program Files (x86)/bin/drmemory"
+      - "C:/Program Files (x86)/sbin/drmemory.com"
+      - "C:/Program Files (x86)/sbin/drmemory.exe"
+      - "C:/Program Files (x86)/sbin/drmemory"
+      - "C:/Program Files (x86)/drmemory.com"
+      - "C:/Program Files (x86)/drmemory.exe"
+      - "C:/Program Files (x86)/drmemory"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/drmemory.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/drmemory.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/drmemory"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/drmemory.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/drmemory.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/drmemory"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/drmemory.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/drmemory.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/drmemory"
+      - "C:/Program Files/GraphNavigator/bin/drmemory.com"
+      - "C:/Program Files/GraphNavigator/bin/drmemory.exe"
+      - "C:/Program Files/GraphNavigator/bin/drmemory"
+      - "C:/Program Files/GraphNavigator/sbin/drmemory.com"
+      - "C:/Program Files/GraphNavigator/sbin/drmemory.exe"
+      - "C:/Program Files/GraphNavigator/sbin/drmemory"
+      - "C:/Program Files/GraphNavigator/drmemory.com"
+      - "C:/Program Files/GraphNavigator/drmemory.exe"
+      - "C:/Program Files/GraphNavigator/drmemory"
+      - "/REGISTRY-NOTFOUND/drmemory.com"
+      - "/REGISTRY-NOTFOUND/drmemory.exe"
+      - "/REGISTRY-NOTFOUND/drmemory"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/cuda-memcheck.com"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/cuda-memcheck.exe"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/cuda-memcheck"
+      - "C:/Windows/System32/cuda-memcheck.com"
+      - "C:/Windows/System32/cuda-memcheck.exe"
+      - "C:/Windows/System32/cuda-memcheck"
+      - "C:/Windows/cuda-memcheck.com"
+      - "C:/Windows/cuda-memcheck.exe"
+      - "C:/Windows/cuda-memcheck"
+      - "C:/Windows/System32/wbem/cuda-memcheck.com"
+      - "C:/Windows/System32/wbem/cuda-memcheck.exe"
+      - "C:/Windows/System32/wbem/cuda-memcheck"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cuda-memcheck.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cuda-memcheck.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cuda-memcheck"
+      - "C:/Windows/System32/OpenSSH/cuda-memcheck.com"
+      - "C:/Windows/System32/OpenSSH/cuda-memcheck.exe"
+      - "C:/Windows/System32/OpenSSH/cuda-memcheck"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cuda-memcheck.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cuda-memcheck.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/cuda-memcheck"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cuda-memcheck.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/cuda-memcheck"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cuda-memcheck.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cuda-memcheck"
+      - "C:/Program Files/Git/cmd/cuda-memcheck.com"
+      - "C:/Program Files/Git/cmd/cuda-memcheck.exe"
+      - "C:/Program Files/Git/cmd/cuda-memcheck"
+      - "C:/Program Files/RuDesktop/cuda-memcheck.com"
+      - "C:/Program Files/RuDesktop/cuda-memcheck.exe"
+      - "C:/Program Files/RuDesktop/cuda-memcheck"
+      - "C:/Program Files/dotnet/cuda-memcheck.com"
+      - "C:/Program Files/dotnet/cuda-memcheck.exe"
+      - "C:/Program Files/dotnet/cuda-memcheck"
+      - "C:/Users/burgu/.local/bin/cuda-memcheck.com"
+      - "C:/Users/burgu/.local/bin/cuda-memcheck.exe"
+      - "C:/Users/burgu/.local/bin/cuda-memcheck"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/cuda-memcheck.com"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/cuda-memcheck.exe"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/cuda-memcheck"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/cuda-memcheck.com"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/cuda-memcheck.exe"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/cuda-memcheck"
+      - "C:/Users/burgu/AppData/Local/Python/bin/cuda-memcheck.com"
+      - "C:/Users/burgu/AppData/Local/Python/bin/cuda-memcheck.exe"
+      - "C:/Users/burgu/AppData/Local/Python/bin/cuda-memcheck"
+      - "C:/Users/burgu/.dotnet/tools/cuda-memcheck.com"
+      - "C:/Users/burgu/.dotnet/tools/cuda-memcheck.exe"
+      - "C:/Users/burgu/.dotnet/tools/cuda-memcheck"
+      - "C:/Program Files/bin/cuda-memcheck.com"
+      - "C:/Program Files/bin/cuda-memcheck.exe"
+      - "C:/Program Files/bin/cuda-memcheck"
+      - "C:/Program Files/sbin/cuda-memcheck.com"
+      - "C:/Program Files/sbin/cuda-memcheck.exe"
+      - "C:/Program Files/sbin/cuda-memcheck"
+      - "C:/Program Files/cuda-memcheck.com"
+      - "C:/Program Files/cuda-memcheck.exe"
+      - "C:/Program Files/cuda-memcheck"
+      - "C:/Program Files (x86)/bin/cuda-memcheck.com"
+      - "C:/Program Files (x86)/bin/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/bin/cuda-memcheck"
+      - "C:/Program Files (x86)/sbin/cuda-memcheck.com"
+      - "C:/Program Files (x86)/sbin/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/sbin/cuda-memcheck"
+      - "C:/Program Files (x86)/cuda-memcheck.com"
+      - "C:/Program Files (x86)/cuda-memcheck.exe"
+      - "C:/Program Files (x86)/cuda-memcheck"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cuda-memcheck.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cuda-memcheck.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cuda-memcheck"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/cuda-memcheck.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/cuda-memcheck.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/cuda-memcheck"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/cuda-memcheck.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/cuda-memcheck.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/cuda-memcheck"
+      - "C:/Program Files/GraphNavigator/bin/cuda-memcheck.com"
+      - "C:/Program Files/GraphNavigator/bin/cuda-memcheck.exe"
+      - "C:/Program Files/GraphNavigator/bin/cuda-memcheck"
+      - "C:/Program Files/GraphNavigator/sbin/cuda-memcheck.com"
+      - "C:/Program Files/GraphNavigator/sbin/cuda-memcheck.exe"
+      - "C:/Program Files/GraphNavigator/sbin/cuda-memcheck"
+      - "C:/Program Files/GraphNavigator/cuda-memcheck.com"
+      - "C:/Program Files/GraphNavigator/cuda-memcheck.exe"
+      - "C:/Program Files/GraphNavigator/cuda-memcheck"
+      - "/REGISTRY-NOTFOUND/cuda-memcheck.com"
+      - "/REGISTRY-NOTFOUND/cuda-memcheck.exe"
+      - "/REGISTRY-NOTFOUND/cuda-memcheck"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/compute-sanitizer.com"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/compute-sanitizer.exe"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/compute-sanitizer"
+      - "C:/Windows/System32/compute-sanitizer.com"
+      - "C:/Windows/System32/compute-sanitizer.exe"
+      - "C:/Windows/System32/compute-sanitizer"
+      - "C:/Windows/compute-sanitizer.com"
+      - "C:/Windows/compute-sanitizer.exe"
+      - "C:/Windows/compute-sanitizer"
+      - "C:/Windows/System32/wbem/compute-sanitizer.com"
+      - "C:/Windows/System32/wbem/compute-sanitizer.exe"
+      - "C:/Windows/System32/wbem/compute-sanitizer"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/compute-sanitizer.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/compute-sanitizer.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/compute-sanitizer"
+      - "C:/Windows/System32/OpenSSH/compute-sanitizer.com"
+      - "C:/Windows/System32/OpenSSH/compute-sanitizer.exe"
+      - "C:/Windows/System32/OpenSSH/compute-sanitizer"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/compute-sanitizer.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/compute-sanitizer.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/compute-sanitizer"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/compute-sanitizer.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/compute-sanitizer"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/compute-sanitizer.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/compute-sanitizer"
+      - "C:/Program Files/Git/cmd/compute-sanitizer.com"
+      - "C:/Program Files/Git/cmd/compute-sanitizer.exe"
+      - "C:/Program Files/Git/cmd/compute-sanitizer"
+      - "C:/Program Files/RuDesktop/compute-sanitizer.com"
+      - "C:/Program Files/RuDesktop/compute-sanitizer.exe"
+      - "C:/Program Files/RuDesktop/compute-sanitizer"
+      - "C:/Program Files/dotnet/compute-sanitizer.com"
+      - "C:/Program Files/dotnet/compute-sanitizer.exe"
+      - "C:/Program Files/dotnet/compute-sanitizer"
+      - "C:/Users/burgu/.local/bin/compute-sanitizer.com"
+      - "C:/Users/burgu/.local/bin/compute-sanitizer.exe"
+      - "C:/Users/burgu/.local/bin/compute-sanitizer"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/compute-sanitizer.com"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/compute-sanitizer.exe"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/compute-sanitizer"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/compute-sanitizer.com"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/compute-sanitizer.exe"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/compute-sanitizer"
+      - "C:/Users/burgu/AppData/Local/Python/bin/compute-sanitizer.com"
+      - "C:/Users/burgu/AppData/Local/Python/bin/compute-sanitizer.exe"
+      - "C:/Users/burgu/AppData/Local/Python/bin/compute-sanitizer"
+      - "C:/Users/burgu/.dotnet/tools/compute-sanitizer.com"
+      - "C:/Users/burgu/.dotnet/tools/compute-sanitizer.exe"
+      - "C:/Users/burgu/.dotnet/tools/compute-sanitizer"
+      - "C:/Program Files/bin/compute-sanitizer.com"
+      - "C:/Program Files/bin/compute-sanitizer.exe"
+      - "C:/Program Files/bin/compute-sanitizer"
+      - "C:/Program Files/sbin/compute-sanitizer.com"
+      - "C:/Program Files/sbin/compute-sanitizer.exe"
+      - "C:/Program Files/sbin/compute-sanitizer"
+      - "C:/Program Files/compute-sanitizer.com"
+      - "C:/Program Files/compute-sanitizer.exe"
+      - "C:/Program Files/compute-sanitizer"
+      - "C:/Program Files (x86)/bin/compute-sanitizer.com"
+      - "C:/Program Files (x86)/bin/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/bin/compute-sanitizer"
+      - "C:/Program Files (x86)/sbin/compute-sanitizer.com"
+      - "C:/Program Files (x86)/sbin/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/sbin/compute-sanitizer"
+      - "C:/Program Files (x86)/compute-sanitizer.com"
+      - "C:/Program Files (x86)/compute-sanitizer.exe"
+      - "C:/Program Files (x86)/compute-sanitizer"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/compute-sanitizer.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/compute-sanitizer.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/compute-sanitizer"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/compute-sanitizer.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/compute-sanitizer.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/compute-sanitizer"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/compute-sanitizer.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/compute-sanitizer.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/compute-sanitizer"
+      - "C:/Program Files/GraphNavigator/bin/compute-sanitizer.com"
+      - "C:/Program Files/GraphNavigator/bin/compute-sanitizer.exe"
+      - "C:/Program Files/GraphNavigator/bin/compute-sanitizer"
+      - "C:/Program Files/GraphNavigator/sbin/compute-sanitizer.com"
+      - "C:/Program Files/GraphNavigator/sbin/compute-sanitizer.exe"
+      - "C:/Program Files/GraphNavigator/sbin/compute-sanitizer"
+      - "C:/Program Files/GraphNavigator/compute-sanitizer.com"
+      - "C:/Program Files/GraphNavigator/compute-sanitizer.exe"
+      - "C:/Program Files/GraphNavigator/compute-sanitizer"
+      - "/REGISTRY-NOTFOUND/compute-sanitizer.com"
+      - "/REGISTRY-NOTFOUND/compute-sanitizer.exe"
+      - "/REGISTRY-NOTFOUND/compute-sanitizer"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\burgu\\AppData\\Local\\com.narelabs.sharrowkin\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\RuDesktop\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\burgu\\.local\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\burgu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\burgu\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/GraphNavigator"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/GraphNavigator"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CTest.cmake:196 (find_program)"
+      - "CMakeLists.txt:7 (include)"
+    mode: "program"
+    variable: "COVERAGE_COMMAND"
+    description: "Path to the coverage program that CTest uses for performing coverage inspection"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcov"
+    candidate_directories:
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/RuDesktop/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/burgu/.local/bin/"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/burgu/AppData/Local/Python/bin/"
+      - "C:/Users/burgu/.dotnet/tools/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/"
+      - "C:/Program Files/GraphNavigator/bin/"
+      - "C:/Program Files/GraphNavigator/sbin/"
+      - "C:/Program Files/GraphNavigator/"
+    searched_directories:
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/gcov.com"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/gcov.exe"
+      - "C:/Users/burgu/AppData/Local/com.narelabs.sharrowkin/bin/gcov"
+      - "C:/Windows/System32/gcov.com"
+      - "C:/Windows/System32/gcov.exe"
+      - "C:/Windows/System32/gcov"
+      - "C:/Windows/gcov.com"
+      - "C:/Windows/gcov.exe"
+      - "C:/Windows/gcov"
+      - "C:/Windows/System32/wbem/gcov.com"
+      - "C:/Windows/System32/wbem/gcov.exe"
+      - "C:/Windows/System32/wbem/gcov"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcov.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcov.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcov"
+      - "C:/Windows/System32/OpenSSH/gcov.com"
+      - "C:/Windows/System32/OpenSSH/gcov.exe"
+      - "C:/Windows/System32/OpenSSH/gcov"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcov.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcov.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/gcov"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcov.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcov.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/gcov"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcov.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcov.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcov"
+      - "C:/Program Files/Git/cmd/gcov.com"
+      - "C:/Program Files/Git/cmd/gcov.exe"
+      - "C:/Program Files/Git/cmd/gcov"
+      - "C:/Program Files/RuDesktop/gcov.com"
+      - "C:/Program Files/RuDesktop/gcov.exe"
+      - "C:/Program Files/RuDesktop/gcov"
+      - "C:/Program Files/dotnet/gcov.com"
+      - "C:/Program Files/dotnet/gcov.exe"
+      - "C:/Program Files/dotnet/gcov"
+      - "C:/Users/burgu/.local/bin/gcov.com"
+      - "C:/Users/burgu/.local/bin/gcov.exe"
+      - "C:/Users/burgu/.local/bin/gcov"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/gcov.com"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/gcov.exe"
+      - "C:/Users/burgu/AppData/Local/Microsoft/WindowsApps/gcov"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/gcov.com"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/gcov.exe"
+      - "C:/Users/burgu/AppData/Local/Programs/Microsoft VS Code/bin/gcov"
+      - "C:/Users/burgu/AppData/Local/Python/bin/gcov.com"
+      - "C:/Users/burgu/AppData/Local/Python/bin/gcov.exe"
+      - "C:/Users/burgu/AppData/Local/Python/bin/gcov"
+      - "C:/Users/burgu/.dotnet/tools/gcov.com"
+      - "C:/Users/burgu/.dotnet/tools/gcov.exe"
+      - "C:/Users/burgu/.dotnet/tools/gcov"
+      - "C:/Program Files/bin/gcov.com"
+      - "C:/Program Files/bin/gcov.exe"
+      - "C:/Program Files/bin/gcov"
+      - "C:/Program Files/sbin/gcov.com"
+      - "C:/Program Files/sbin/gcov.exe"
+      - "C:/Program Files/sbin/gcov"
+      - "C:/Program Files/gcov.com"
+      - "C:/Program Files/gcov.exe"
+      - "C:/Program Files/gcov"
+      - "C:/Program Files (x86)/bin/gcov.com"
+      - "C:/Program Files (x86)/bin/gcov.exe"
+      - "C:/Program Files (x86)/bin/gcov"
+      - "C:/Program Files (x86)/sbin/gcov.com"
+      - "C:/Program Files (x86)/sbin/gcov.exe"
+      - "C:/Program Files (x86)/sbin/gcov"
+      - "C:/Program Files (x86)/gcov.com"
+      - "C:/Program Files (x86)/gcov.exe"
+      - "C:/Program Files (x86)/gcov"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/gcov.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/gcov.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/gcov"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/gcov.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/gcov.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/sbin/gcov"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/gcov.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/gcov.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/gcov"
+      - "C:/Program Files/GraphNavigator/bin/gcov.com"
+      - "C:/Program Files/GraphNavigator/bin/gcov.exe"
+      - "C:/Program Files/GraphNavigator/bin/gcov"
+      - "C:/Program Files/GraphNavigator/sbin/gcov.com"
+      - "C:/Program Files/GraphNavigator/sbin/gcov.exe"
+      - "C:/Program Files/GraphNavigator/sbin/gcov"
+      - "C:/Program Files/GraphNavigator/gcov.com"
+      - "C:/Program Files/GraphNavigator/gcov.exe"
+      - "C:/Program Files/GraphNavigator/gcov"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\burgu\\AppData\\Local\\com.narelabs.sharrowkin\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\RuDesktop\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\burgu\\.local\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\burgu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\burgu\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\burgu\\.dotnet\\tools"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files/GraphNavigator"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake"
+        - "C:/Program Files/GraphNavigator"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckCCompilerFlag.cmake:105 (cmake_check_compiler_flag)"
+      - "build/_deps/raylib-src/cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "build/_deps/raylib-src/cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "build/_deps/raylib-src/CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-k4po91"
+      binary: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-k4po91"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-k4po91'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ee292.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Версия MSBuild 18.11.0-1.26475.11+3cde5c8ec для .NET Framework
+        Сборка начата 17.10.2026 21:42:38.
+        
+        Проект "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k4po91\\cmTC_ee292.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k4po91\\Debug\\".
+          Создание каталога "cmTC_ee292.dir\\Debug\\cmTC_ee292.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_ee292.dir\\Debug\\cmTC_ee292.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_ee292.dir\\Debug\\cmTC_ee292.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ee292.dir\\Debug\\\\" /Fd"cmTC_ee292.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue  -Werror=pointer-arith "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k4po91\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ee292.dir\\Debug\\\\" /Fd"cmTC_ee292.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue  -Werror=pointer-arith "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k4po91\\src.c"
+        cl : командная строка  error D8021: недопустимый числовой аргумент "/Werror=pointer-arith" [C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k4po91\\cmTC_ee292.vcxproj]
+        Сборка проекта "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k4po91\\cmTC_ee292.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k4po91\\cmTC_ee292.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          cl : командная строка  error D8021: недопустимый числовой аргумент "/Werror=pointer-arith" [C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k4po91\\cmTC_ee292.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-7o3vyx"
+      binary: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-7o3vyx"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake;C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-7o3vyx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ec023.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Версия MSBuild 18.11.0-1.26475.11+3cde5c8ec для .NET Framework
+        Сборка начата 17.10.2026 21:42:39.
+        
+        Проект "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o3vyx\\cmTC_ec023.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o3vyx\\Debug\\".
+          Создание каталога "cmTC_ec023.dir\\Debug\\cmTC_ec023.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_ec023.dir\\Debug\\cmTC_ec023.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_ec023.dir\\Debug\\cmTC_ec023.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ec023.dir\\Debug\\\\" /Fd"cmTC_ec023.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o3vyx\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ec023.dir\\Debug\\\\" /Fd"cmTC_ec023.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o3vyx\\src.c"
+          src.c
+        C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o3vyx\\src.c(1,10): error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o3vyx\\cmTC_ec023.vcxproj]
+        Сборка проекта "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o3vyx\\cmTC_ec023.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o3vyx\\cmTC_ec023.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект ClCompile) -> 
+          C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o3vyx\\src.c(1,10): error C1083: Не удается открыть файл включение: pthread.h: No such file or directory, [C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7o3vyx\\cmTC_ec023.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.54
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-ejp67l"
+      binary: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-ejp67l"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake;C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-ejp67l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02398.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Версия MSBuild 18.11.0-1.26475.11+3cde5c8ec для .NET Framework
+        Сборка начата 17.10.2026 21:42:39.
+        
+        Проект "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejp67l\\cmTC_02398.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejp67l\\Debug\\".
+          Создание каталога "cmTC_02398.dir\\Debug\\cmTC_02398.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_02398.dir\\Debug\\cmTC_02398.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_02398.dir\\Debug\\cmTC_02398.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_02398.dir\\Debug\\\\" /Fd"cmTC_02398.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejp67l\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_02398.dir\\Debug\\\\" /Fd"cmTC_02398.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejp67l\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejp67l\\Debug\\cmTC_02398.exe" /INCREMENTAL /ILK:"cmTC_02398.dir\\Debug\\cmTC_02398.ilk" /NOLOGO /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-ejp67l/Debug/cmTC_02398.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-ejp67l/Debug/cmTC_02398.lib" /MACHINE:X64  /machine:x64 cmTC_02398.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejp67l\\cmTC_02398.vcxproj]
+        Сборка проекта "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejp67l\\cmTC_02398.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejp67l\\cmTC_02398.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthreads.lib" [C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ejp67l\\cmTC_02398.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.58
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/raylib-src/src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-o4uks0"
+      binary: "C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-o4uks0"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/cmake;C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-src/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-o4uks0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cc59d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Версия MSBuild 18.11.0-1.26475.11+3cde5c8ec для .NET Framework
+        Сборка начата 17.10.2026 21:42:40.
+        
+        Проект "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4uks0\\cmTC_cc59d.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        PrepareForBuild:
+          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+          Создание каталога "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4uks0\\Debug\\".
+          Создание каталога "cmTC_cc59d.dir\\Debug\\cmTC_cc59d.tlog\\".
+        InitializeBuildStatus:
+          Создание "cmTC_cc59d.dir\\Debug\\cmTC_cc59d.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
+          Обращение к "cmTC_cc59d.dir\\Debug\\cmTC_cc59d.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cc59d.dir\\Debug\\\\" /Fd"cmTC_cc59d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4uks0\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
+          cl /c /I"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cc59d.dir\\Debug\\\\" /Fd"cmTC_cc59d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4uks0\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4uks0\\Debug\\cmTC_cc59d.exe" /INCREMENTAL /ILK:"cmTC_cc59d.dir\\Debug\\cmTC_cc59d.ilk" /NOLOGO /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Main\\LSHPI\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-o4uks0/Debug/cmTC_cc59d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Main/LSHPI/GraphNavigator/build/CMakeFiles/CMakeScratch/TryCompile-o4uks0/Debug/cmTC_cc59d.lib" /MACHINE:X64  /machine:x64 cmTC_cc59d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4uks0\\cmTC_cc59d.vcxproj]
+        Сборка проекта "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4uks0\\cmTC_cc59d.vcxproj" завершена (целевые объекты по умолчанию) с ошибкой.
+        
+        Ошибка сборки.
+        
+        "C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4uks0\\cmTC_cc59d.vcxproj" (целевой объект по умолчанию) (1) ->
+        (Целевой объект Link) -> 
+          LINK : fatal error LNK1104: не удается открыть файл "pthread.lib" [C:\\Main\\LSHPI\\GraphNavigator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o4uks0\\cmTC_cc59d.vcxproj]
+        
+            Предупреждений: 0
+            Ошибок: 1
+        
+        Прошло времени 00:00:00.58
+        
+      exitCode: 1
+...

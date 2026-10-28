@@ -1,0 +1,10 @@
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\RAYLIB-SUBBUILD\CMAKEFILES\323845E61BC91724A468D7BFF4F7F096\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild -BC:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Main/LSHPI/GraphNavigator/build/_deps/raylib-subbuild/raylib-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/tinyxml2-populate.dir
+C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/CMakeFiles/ZERO_CHECK.dir

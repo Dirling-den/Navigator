@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

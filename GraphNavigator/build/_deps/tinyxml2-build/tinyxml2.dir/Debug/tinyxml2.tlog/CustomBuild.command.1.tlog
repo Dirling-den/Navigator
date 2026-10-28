@@ -1,0 +1,10 @@
+^C:\MAIN\LSHPI\GRAPHNAVIGATOR\BUILD\_DEPS\TINYXML2-SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Main/LSHPI/GraphNavigator -BC:/Main/LSHPI/GraphNavigator/build --check-stamp-file C:/Main/LSHPI/GraphNavigator/build/_deps/tinyxml2-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
